@@ -15,6 +15,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.graphics.tsaplots import plot_acf
 from sklearn.metrics import mean_squared_error, mean_absolute_error
+import sys
 
 warnings.filterwarnings("ignore")
 
@@ -115,8 +116,7 @@ for i, country in enumerate(COUNTRIES):
     print(f"  Test:  {test.index[0].year}-{test.index[-1].year} ({len(test)} obs)")
     order = find_best_arima_order(train)
     print(f"  Best order: ARIMA{order}")
-
-    # Fit on training data
+#________________Fit on training data______________
     model = SARIMAX(train, order=order, enforce_stationarity=False, enforce_invertibility=False)
     fit = model.fit(disp=False)
 
