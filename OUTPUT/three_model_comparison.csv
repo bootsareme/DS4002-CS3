@@ -1,0 +1,7 @@
+Country,order,policy_event,break_year,SARIMA_RMSE,ARIMAX_RMSE,ARIMAX_Dummy_RMSE,ARIMAX_Dummy_AIC,GDP_coef,GDP_pval,Dummy_coef,Dummy_pval,Dummy_sig
+USA,"(0, 1, 4)",Clean Air Act Amendments 1990,1990,2.4267,6.083,6.1,276.0,9.157615,0.0,-0.2202,0.9331,No
+China,"(2, 2, 1)",11th Five-Year Plan,2006,1.0704,1.4051,1.3946,-222.66,0.728271,0.0,0.0143,0.8968,No
+India,"(1, 2, 1)",National Action Plan on Climate Change,2008,0.1285,0.1203,0.0678,-579.68,0.082114,0.0,0.0744,0.0,Yes
+Germany,"(2, 1, 2)",Reunification + EU climate policy,1990,2.2083,3.8013,3.894,286.68,4.434148,0.0,-1.0174,0.9578,No
+Brazil,"(2, 1, 0)",PPCDAm deforestation action plan,2004,0.4062,0.2713,0.27,-288.57,0.794003,0.0,-0.0291,0.959,No
+South Africa,"(1, 1, 1)",Integrated Resource Plan 2010,2010,0.6753,0.7988,0.6674,23.77,0.535645,0.0691,-0.3466,0.85,No
