@@ -17,6 +17,7 @@ pip install statsmodels
 │   └── gdp_pcap.csv
 ├── LICENSE
 ├── OUTPUT
+│   ├── arimax_dummy_forecasts.png
 │   ├── arimax_forecasts.png
 │   ├── arimax_vs_sarima_comparison.csv
 │   ├── co2_correlation_heatmap.png
@@ -26,10 +27,13 @@ pip install statsmodels
 │   ├── sarima_summary.csv
 │   ├── sarima_vs_arimax_comparison.png
 │   ├── scatter_regression.png
+│   ├── three_model_comparison.csv
+│   ├── three_model_comparison.png
 │   └── time_series_overlay.png
 ├── README.md
 └── SCRIPT
     ├── ARIMAX_analysis.py
+    ├── ARIMAX_dummy_analysis.py
     ├── EDA.ipynb
     ├── SARIMA_analysis.py
     └── correlation_analysis.py
