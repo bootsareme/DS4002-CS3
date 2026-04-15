@@ -1,7 +1,0 @@
-Country,N_years,Pearson_r,Pearson_p_fmt,Spearman_rho,Spearman_p_fmt
-Brazil,223,0.9796,6.80e-156,0.9298,6.31e-98
-China,120,0.9437,1.53e-58,0.5098,2.73e-09
-Germany,223,0.73,2.19e-38,0.9535,4.35e-117
-India,223,0.9493,4.52e-113,0.6771,2.87e-31
-South Africa,223,0.8504,1.41e-63,0.9316,4.07e-99
-USA,223,0.7829,1.89e-47,0.9685,1.80e-135
